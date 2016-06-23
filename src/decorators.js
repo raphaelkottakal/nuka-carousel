@@ -107,7 +107,7 @@ const DefaultDecorators = [
           background: 'transparent',
           color: 'black',
           cursor: 'pointer',
-          padding: 10,
+          padding: '10px 4px',
           outline: 0,
           fontSize: 24,
           lineHeight: '5px',
