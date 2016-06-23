@@ -900,8 +900,9 @@ const Carousel = React.createClass({
         return {
           position: 'absolute',
           bottom: 0,
-          left: '50%',
-          marginLeft: '-25%',
+          width: '100%',
+          textAlign: 'center',
+          // left: '50%',
           // transform: 'translateX(-50%)',
           // WebkitTransform: 'translateX(-50%)',
           // msTransform: 'translateX(-50%)'
