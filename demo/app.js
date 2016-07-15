@@ -16,6 +16,8 @@ const App = React.createClass({
       <div style={{width: '50%', margin: 'auto'}}>
         <Carousel
           ref="carousel"
+          autoplay={true}
+          autoplayInterval={1000}
           data={this.setCarouselData.bind(this, 'carousel')}
           slideIndex={this.state.slideIndex}
           afterSlide={newSlideIndex => this.setState({ slideIndex: newSlideIndex })}>

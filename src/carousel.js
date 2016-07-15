@@ -509,7 +509,7 @@ const Carousel = React.createClass({
       slidesToShow = this.state.slidesToScroll;
     }
     if (this.state.currentSlide >= childrenCount - slidesToShow && !this.props.wrapAround) {
-      return;
+      return this.goToSlide(0);
     }
 
     if (this.props.wrapAround) {
